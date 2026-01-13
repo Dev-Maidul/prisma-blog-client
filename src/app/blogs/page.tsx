@@ -1,7 +1,11 @@
-import React from 'react'
 
-export default function BlogPage() {
+
+const BlogPage = async() => {
   return (
-    <div>Blog Page</div>
-  )
-}
+    <div>
+      blog page
+    </div>
+  );
+};
+
+export default BlogPage;

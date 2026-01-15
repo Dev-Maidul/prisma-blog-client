@@ -1,7 +1,14 @@
-import React from 'react'
+import { Navbar } from "@/components/layouts/navbar";
 
-export default function CommonLayout() {
+export default function CommonLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div>CommonLayout</div>
-  )
+    <div>
+      <Navbar></Navbar>
+      {children}
+    </div>
+  );
 }

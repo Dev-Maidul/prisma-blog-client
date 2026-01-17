@@ -1,3 +1,4 @@
+
 import { Navbar } from "@/components/layouts/navbar";
 
 export default function CommonLayout({
